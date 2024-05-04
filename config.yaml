@@ -1,0 +1,12 @@
+workers: 8
+device: 0
+batch_size: 16
+data_config: /content/coco_format.yaml
+img_size: 640
+cfg: models/detect/yolov9-c.yaml
+weights: '/content/{HOME}/weights/yolov9-c.pt'
+name: yolov9-c
+hyp_file: hyp.scratch-high.yaml
+min_items: 0
+epochs: 500
+close_mosaic: 15
